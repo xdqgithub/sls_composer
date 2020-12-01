@@ -202,7 +202,8 @@ class MysqlDB
         Log::logs($sql,Log::DEBUG);
 
         //防止sql注入
-        $conn->escape($sql);
+        if(method_exists($conn,'escape'))
+            $conn->escape($sql);
 
         //执行语句
         $rt = $conn->query($sql);
