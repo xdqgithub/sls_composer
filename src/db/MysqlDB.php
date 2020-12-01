@@ -2,6 +2,8 @@
 
 namespace sls\db;
 
+use sls\log\Log;
+
 class MysqlDB
 {
     private static $instance ;

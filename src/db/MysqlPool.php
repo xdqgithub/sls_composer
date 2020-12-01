@@ -1,6 +1,7 @@
 <?php
 namespace sls\db;
 
+use sls\log\Log;
 use Swoole\Coroutine\Channel;
 use Swoole\Coroutine\MySQL;
 
