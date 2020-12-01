@@ -1,5 +1,5 @@
 {
-    "name": "hulk/sls",
+    "name": "hulk1126/sls",
     "description": "php swoole log server",
     "type": "library",
     "require": {
