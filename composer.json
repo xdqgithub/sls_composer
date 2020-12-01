@@ -1,0 +1,23 @@
+{
+    "name": "hulk/sls",
+    "description": "php swoole log server",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "xdqgithub",
+            "email": "hulk1126hulk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "sls\\": "src/"
+        }
+    }
+}
